@@ -1,0 +1,10 @@
+run_analysis.R
+  Combines files X_train/test, y_train/test, subject_train/test, and features.txt
+  See File
+    UCI HAR Dataset/README.txt   <----
+  Returns a single Dataset.
+    Fields =
+      subject - ID of the subject from the UCIDataset.
+      activity - Description of the activity performed during the test.
+      feature - type of measurement. filtered for mean and std measurement types.
+      averageValue - average value of feature measurements.
